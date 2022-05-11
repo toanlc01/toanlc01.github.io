@@ -41,6 +41,25 @@ h3 {
   width: 5%;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2vw;
+  gap: 1vw;
+  background-color: #E4F9F5;
+}
+
+.wrapper img {
+  height: 25vw;
+  border-radius: 5%;
+}
+
+.wrapper img:hover {
+  -moz-box-shadow: 0 0 30px #ccc;
+  -webkit-box-shadow: 0 0 30px #ccc;
+  box-shadow: 0 0 30px #ccc;
+}
+
 .code-img {
   width: 20%;
   float: left;

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set viewport width  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Advanced Search</title>
+</head>
+<body>
+    <!-- Header start  -->
+    <div class="header-advanced">
+        <div class="header-advanced-logo">
+            <a href="index.html">
+                <img src="advanced-logo.png" alt="Google Logo">
+            </a>
+        </div>
+        <div class="header-links">
+            <a href="index.html">Google Search</a>
+            <a href="image.html">Images</a>
+        </div>
+    </div>
+    <!-- Header end  -->
+
+    <!-- Advanced search bar start  -->
+    <div class="advanced-search-bar">
+        <label>Advanced Search</label>
+    </div>
+    <div class="seperator-line"></div>
+    <!-- Advanced search bar end  -->
+
+    <!-- Advanced search container start  -->
+    <div class="advanced-search-container">
+        <form action="https://www.google.com/search" method="get">
+            <label class="left">Find pages with...</label>
+            <div class="whitespace"></div>
+            <label class="right">To do this in the search box</label>
+        
+            <div class="find-keyword">
+                <label class="left">all these words:</label>
+                <input type="text" name="s_q">
+                <label class="right">type the important words</label>
+            </div>
+            <div class="find-keyword">
+                <label class="left">this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <label class="right">put exact words in quotes:</label>
+            </div>
+            <div class="find-keyword">
+                <label class="left">any of these words:</label>
+                <input type="text" name="as_oq">
+                <label class="right">type or between all the words you want: </label>
+            </div>
+            <div class="find-keyword">
+                <label class="left">none of these words: </label>
+                <input type="text" name="as_eq">
+                <label class="right">put a minus sign just before words that you don't want: </label>
+            </div>
+
+            <div class="advanced-search-button">
+                <label class="left"></label>
+                <div class="button-container">
+                    <input type="submit" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+    <!-- Advanced search container end  -->
+
+
+
+
+
+</body>
+</html>
